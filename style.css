@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-    margin: 100px 0;
+	margin: 100px 40px;
 	width: 800px;
 	background-color: #fff;
 	box-shadow: 0 0 10px black;
@@ -35,7 +35,7 @@ body {
 	padding: 20px 40px;
 	font-family: "Pacifico", cursive;
 	font-size: 30px;
-	background-image: url("./pizza.jpg");
+	background-image: url("./img/pizza-big.jpg");
 	background-size: cover;
 	background-position: bottom;
 	z-index: 0;
@@ -66,19 +66,52 @@ body {
 }
 
 .toppings-list {
-    padding: 20px 40px;
+	padding: 20px 40px;
 }
 
 .subtitle {
-    padding: 20px 0;
+	padding: 20px 0;
 }
 
 .list {
-    padding-bottom: 20px;
-    list-style: none;
+	padding-bottom: 20px;
+	list-style: none;
 }
 
 .list-item {
-    padding: 10px 30px;
-    border-bottom: 1px solid rgb(200, 200, 200);
+	padding: 10px 30px;
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+@media (max-width: 414px) {
+    .wrapper {
+        margin: 20px;
+    }
+
+	.header {
+        padding: 20px;
+		height: 300px;
+		font-size: 17px;
+		background-image: url("./img/pizza-small.jpg");
+	}
+
+    .search {
+        padding: 10px 20px;
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+
+    .toppings-list {
+        padding: 10px 20px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+    }
+    
+    .list {
+        padding-bottom: 20px;
+        list-style: none;
+        font-size: 14px;
+    }
 }
