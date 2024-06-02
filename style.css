@@ -108,6 +108,21 @@ body {
     }
 }
 
+@media (max-width: 576px) {
+    .wrapper {
+        margin: 24px;
+    }
+
+	.header {
+		font-size: 21px;
+        background-image: url('./img/pizza-small.jpg');
+	}
+    
+    .subtitle {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 414px) {
     .wrapper {
         margin: 20px;
