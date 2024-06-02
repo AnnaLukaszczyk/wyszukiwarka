@@ -130,12 +130,11 @@ body {
 
 	.header {
         padding: 20px;
+        height: 240px;
 		font-size: 17px;
 	}
 
     .search {
-        padding: 10px 20px;
-        margin-bottom: 4px;
         font-size: 12px;
     }
 
@@ -148,8 +147,6 @@ body {
     }
     
     .list {
-        padding-bottom: 20px;
-        list-style: none;
         font-size: 14px;
     }
 }
