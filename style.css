@@ -20,9 +20,10 @@ body {
 }
 
 .wrapper {
+    margin: 100px 0;
 	width: 800px;
 	background-color: #fff;
-	box-shadow: 0 0 1px black;
+	box-shadow: 0 0 10px black;
 }
 
 .header {
@@ -62,4 +63,22 @@ body {
 	border-radius: 6px;
 	border: 1px solid rgb(85, 85, 85);
 	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.toppings-list {
+    padding: 20px 40px;
+}
+
+.subtitle {
+    padding: 20px 0;
+}
+
+.list {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.list-item {
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
