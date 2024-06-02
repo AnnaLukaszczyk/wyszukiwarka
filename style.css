@@ -12,10 +12,10 @@ body {
 	font-family: "Montserrat", sans-serif;
 	background: linear-gradient(
 		80deg,
-		rgba(30, 30, 30, 1) 0%,
-		rgba(100, 100, 100, 1) 30%,
-		rgba(100, 100, 100, 1) 70%,
-		rgba(30, 30, 30, 1) 100%
+		rgb(46, 46, 46) 0%,
+		rgb(116, 116, 116) 30%,
+		rgb(116, 116, 116) 70%,
+		rgb(46, 46, 46) 100%
 	);
 }
 
@@ -47,7 +47,7 @@ body {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.2);
 	z-index: -1;
 }
 
