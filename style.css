@@ -83,6 +83,31 @@ body {
 	border-bottom: 1px solid rgb(200, 200, 200);
 }
 
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 40px;
+    }
+
+	.header {
+        padding: 30px;
+		height: 300px;
+		font-size: 26px;
+	}
+
+    .search {
+        padding: 10px 20px;
+        margin-bottom: 4px;
+    }
+
+    .toppings-list {
+        padding: 20px 30px;
+    }
+    
+    .subtitle {
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 414px) {
     .wrapper {
         margin: 20px;
@@ -90,9 +115,7 @@ body {
 
 	.header {
         padding: 20px;
-		height: 300px;
 		font-size: 17px;
-		background-image: url("./img/pizza-small.jpg");
 	}
 
     .search {
