@@ -151,6 +151,13 @@ body {
     }
     
     .list {
+		padding-bottom: 10px;
         font-size: 14px;
     }
+
+	.info {
+		padding: 0 20px 20px;
+		text-align: center;
+		font-size: 14px;
+	}
 }
