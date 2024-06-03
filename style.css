@@ -82,6 +82,11 @@ body {
 	border-bottom: 1px solid rgb(200, 200, 200);
 }
 
+.info {
+	display: none;
+	padding: 0 30px 30px;
+}
+
 @media (max-width: 768px) {
     .wrapper {
         margin: 40px 40px auto 40px;
